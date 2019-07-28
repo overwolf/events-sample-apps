@@ -1,0 +1,53 @@
+{
+  "manifest_version": "1",
+  "type": "WebApp",
+  "meta": {
+    "name": "Rocket League Consumer Sample App",
+    "version": "1.0.0.0",
+    "minimum-overwolf-version": "0.97.208.0",
+    "author": "Overwolf",
+    "icon": "icon.png",
+    "icon_gray": "icon_gray.png",
+    "description": "RocketLeague sample App"
+  },
+  "data": {
+    "start_window": "index",
+    "windows": {
+      "index": {
+        "file": "index.html",
+        "transparent": false,
+        "clickthrough": false,
+        "resizable": true,
+        "show_in_taskbar": true,
+        "size": {
+          "width": 150,
+          "height": 150
+        },
+        "start_position": {
+          "Top": 10,
+          "Left": 10
+        }
+      }
+    },
+     "game_targeting": {
+        "type": "dedicated",
+        "game_ids": [
+          10798
+        ]
+      },
+    "game_events": [
+      10798
+    ],
+    "launch_events": [
+      {
+        "event": "GameLaunch",
+        "event_data": {
+          "game_ids": [
+            10798
+          ]
+        },
+        "start_minimized": false
+      }
+    ]
+  }
+}
