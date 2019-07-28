@@ -1,0 +1,53 @@
+{
+  "manifest_version": "1",
+  "type": "WebApp",
+  "meta": {
+    "name": "Dota Game Events Consumer Sample",
+    "version": "0.0.1",
+    "minimum-overwolf-version": "0.92.300.0",
+    "author": "Overwolf",
+    "icon": "icon.png",
+    "icon_gray": "icon_gray.png",
+    "description": "Dota Game Events Consumer Sample"
+  },
+  "permissions": [
+    "GameInfo"
+  ],
+  "data": {
+    "start_window": "index",
+    "windows": {
+      "index": {
+        "file": "index.html",
+        "transparent": false,
+        "clickthrough": false,
+        "resizable": true,
+        "show_in_taskbar": true,
+        "size": {
+          "width": 115,
+          "height": 135
+        },
+        "start_position": {
+          "Top": 10,
+          "Left": 10
+        }
+      }
+    },
+    "game_targeting": {
+        "type": "dedicated",
+        "game_ids": [
+          7314
+        ]
+      },
+    "game_events": [7314],
+    "launch_events": [
+      {
+        "event": "GameLaunch",
+        "event_data": {
+          "game_ids": [
+            7314
+          ]
+        },
+        "start_minimized": false
+      }]
+}
+}
