@@ -1,0 +1,48 @@
+{
+  "manifest_version": "1",
+  "type": "WebApp",
+  "meta": {
+    "name": "CSGO events sample app",
+    "version": "0.0.1",
+    "minimum-overwolf-version": "0.92.300.0",
+    "author": "Overwolf",
+    "icon": "icon.png",
+    "icon_gray": "icon_gray.png",
+    "description": "Game Events Consumer Sample"
+  },
+  "data": {
+    "game_targeting": {
+			"type": "dedicated",
+			"game_ids": [7764]
+		},
+    "start_window": "index",
+    "windows": {
+      "index": {
+        "file": "index.html",
+        "transparent": true,
+        "clickthrough": true,
+        "resizable": false,
+        "show_in_taskbar": true,
+        "size": {
+          "width": 1150,
+          "height": 535
+        },
+        "start_position": {
+          "Top": 10,
+          "Left": 10
+        }
+      }
+    },
+    "game_events": [7764],
+    "launch_events": [
+      {
+        "event": "GameLaunch",
+        "event_data": {
+          "game_ids": [
+            7764
+          ]
+        },
+        "start_minimized": false
+      }]
+}
+}
