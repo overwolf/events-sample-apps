@@ -24,7 +24,9 @@ var g_interestedInFeatures = [
   'info',
   'roster',
   'scene',
-  'match_info'
+  'match_info',
+  'replay',
+  'counters'
 ];
 
 function registerEvents() {
