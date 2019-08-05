@@ -8,7 +8,8 @@ var g_interestedInFeatures = [
   'scene_state',
   'collection',
   'decks',
-  'match'
+  'match',
+  'match_info'
 ];
 
 function registerEvents() {
