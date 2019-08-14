@@ -8,7 +8,11 @@ var g_interestedInFeatures = [
   'counters',
   'match_info',
   'me',
-  'roster'
+  'roster',
+  'store',
+  'board',
+  'bench',
+  'carousel'
 ];
 
 function registerEvents() {

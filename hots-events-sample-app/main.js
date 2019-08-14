@@ -10,7 +10,8 @@ var g_interestedInFeatures = [
   'game_info',
   'roster',
   'kill',
-  'death'
+  'death',
+  'me'
 ];
 
 function registerEvents() {
