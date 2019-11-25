@@ -1,4 +1,4 @@
-// this a subset of the features that Apex Legends events provides - however,
+// this a subset of the features that HotS events provides - however,
 // when writing an app that consumes events - it is best if you request
 // only those features that you want to handle.
 //
@@ -11,7 +11,9 @@ var g_interestedInFeatures = [
   'roster',
   'kill',
   'death',
-  'me'
+  'me',
+  'bans',
+  'draft'
 ];
 
 function registerEvents() {
@@ -55,7 +57,7 @@ function gameLaunched(gameInfoResult) {
     return false;
   }
 
-  console.log("Apex Legends Launched");
+  console.log("HotS Launched");
   return true;
 
 }
