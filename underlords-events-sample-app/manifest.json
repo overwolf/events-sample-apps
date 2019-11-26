@@ -2,7 +2,7 @@
   "manifest_version": "1",
   "type": "WebApp",
   "meta": {
-    "name": "Apex Legends Game Events Consumer Sample",
+    "name": "Dota Underlords Game Events Consumer Sample",
     "version": "0.0.1",
     "minimum-overwolf-version": "0.125.1.0",
     "author": "Overwolf",
@@ -14,7 +14,7 @@
     "game_targeting": {
       "type": "dedicated",
       "game_ids": [
-        10624
+        21586
       ]
     },
     "start_window": "index",
@@ -35,13 +35,13 @@
         }
       }
     },
-    "game_events": [10624],
+    "game_events": [21586],
     "launch_events": [
       {
         "event": "GameLaunch",
         "event_data": {
           "game_ids": [
-            10624
+            21586
           ]
         },
         "start_minimized": false
