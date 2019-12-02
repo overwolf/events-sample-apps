@@ -18,7 +18,9 @@ var g_interestedInFeatures = [
   'abilities',
   'announcer',
   'counters',
-  'match_info'
+  'match_info',
+  'damage',
+  'heal'
   // 'gold'
 ];
 
