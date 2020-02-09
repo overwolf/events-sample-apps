@@ -20,7 +20,8 @@ var g_interestedInFeatures = [
   'counters',
   'match_info',
   'damage',
-  'heal'
+  'heal',
+  'live_client_data'
   // 'gold'
 ];
 
