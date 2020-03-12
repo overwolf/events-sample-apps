@@ -12,7 +12,8 @@ var g_interestedInFeatures = [
   'store',
   'board',
   'bench',
-  'carousel'
+  'carousel',
+  'live_client_data'
 ];
 
 function registerEvents() {
