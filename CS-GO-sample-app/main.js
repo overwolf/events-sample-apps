@@ -26,7 +26,8 @@ var g_interestedInFeatures = [
   'scene',
   'match_info',
   'replay',
-  'counters'
+  'counters',
+  'mvp'
 ];
 
 function registerEvents() {
