@@ -5,14 +5,10 @@
 // NOTE: in the future we'll have a wildcard option to allow retreiving all
 // features
 var g_interestedInFeatures = [
-  'kills',
-  'multi_kill',
-  'death',
-  'preGame',
-  'postGame',
-  'player',
-  'roster',
-  'gameMode'
+  'game_info',
+  'match_info',
+  'kill',
+  'death'
 ];
 
 function registerEvents() {
