@@ -9,7 +9,8 @@ var g_interestedInFeatures = [
   "champ_select",
   "lcu_info",
   "lobby_info",
-  "end_game"
+  "end_game",
+  "game_info"
 ];
 
 function registerEvents() {
