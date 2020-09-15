@@ -1,4 +1,4 @@
-// this a subset of the features that Valorant events provides - however,
+// this a subset of the features that Warframe events provides - however,
 // when writing an app that consumes events - it is best if you request
 // only those features that you want to handle.
 //
@@ -50,11 +50,11 @@ function gameLaunched(gameInfoResult) {
   }
 
   // NOTE: we divide by 10 to get the game class id without it's sequence number
-  if (Math.floor(gameInfoResult.gameInfo.id/10) != 21640) {
+  if (Math.floor(gameInfoResult.gameInfo.id/10) != 8954) {
     return false;
   }
 
-  console.log("Valorant Launched");
+  console.log("Warframe Launched");
   return true;
 
 }
@@ -70,11 +70,11 @@ function gameRunning(gameInfo) {
   }
 
   // NOTE: we divide by 10 to get the game class id without it's sequence number
-  if (Math.floor(gameInfo.id/10) != 21640) {
+  if (Math.floor(gameInfo.id/10) != 8954) {
     return false;
   }
 
-  console.log("Valorant running");
+  console.log("Warframe running");
   return true;
 
 }
