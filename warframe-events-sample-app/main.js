@@ -6,10 +6,7 @@
 // features
 var g_interestedInFeatures = [
   'game_info',
-  'me',
   'match_info',
-  'kill',
-  'death',
   'gep_internal'
 ];
 
