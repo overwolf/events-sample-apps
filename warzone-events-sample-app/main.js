@@ -1,4 +1,4 @@
-// this a subset of the features that warzone events provides - however,
+// this a subset of the features that Call of Duty: Warzone events provides - however,
 // when writing an app that consumes events - it is best if you request
 // only those features that you want to handle.
 //
@@ -51,7 +51,7 @@ function gameLaunched(gameInfoResult) {
     return false;
   }
 
-  console.log("Warzone Launched");
+  console.log("Call of Duty: Launched");
   return true;
 
 }
@@ -71,7 +71,7 @@ function gameRunning(gameInfo) {
     return false;
   }
 
-  console.log("Warzone running");
+  console.log("Call of Duty: Warzone running");
   return true;
 
 }
