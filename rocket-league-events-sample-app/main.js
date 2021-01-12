@@ -6,7 +6,9 @@ window.addEventListener('load', function () {
       'match',
       'me',
       'match_info',
-      `death`
+      `death`,
+      `teamGoal`,
+      `opposingTeamGoal`
     ];
     
     var textarea = document.getElementById('textareaMessage');
