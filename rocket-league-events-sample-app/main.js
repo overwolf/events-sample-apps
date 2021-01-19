@@ -8,7 +8,8 @@ window.addEventListener('load', function () {
       'match_info',
       `death`,
       `teamGoal`,
-      `opposingTeamGoal`
+      `opposingTeamGoal`,
+      `defuser`
     ];
     
     var textarea = document.getElementById('textareaMessage');
