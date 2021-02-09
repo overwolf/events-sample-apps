@@ -50,32 +50,38 @@ window.addEventListener('load', function () {
     // 'hero_item_cooldown_changed',
   ];
 
-  function registerEvents() {
-    // general events errors
-    overwolf.games.events.onError.addListener(function(info) {
-      var log = 'Error: ' + JSON.stringify(info);
-      textarea.value += log + '\n';
-      console.log('Error: ' + JSON.stringify(info));
-    });
+  var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
 
-    // 'static' data changed (total kills, username, steam-id)
+  function registerEvents() {
+  
+    onErrorListener = function(info) {
+      console.log("Error: " + JSON.stringify(info));
+    }
+    
+    onInfoUpdates2Listener = function(info) {
+      console.log("Info UPDATE: " + JSON.stringify(info));
+    }
+    
+    onNewEventsListener = function(info) {
+      console.log("EVENT FIRED: " + JSON.stringify(info));
+    }
+  
+    // general events errors
+    overwolf.games.events.onError.addListener(onErrorListener);
+    
+    // "static" data changed (total kills, username, steam-id)
     // This will also be triggered the first time we register
     // for events and will contain all the current information
-    overwolf.games.events.onInfoUpdates2.addListener(function(info) {
-      var log = 'Info UPDATE: ' + JSON.stringify(info);
-      textarea.value += log + '\n';
-      console.log(log);
-    });
-
+    overwolf.games.events.onInfoUpdates2.addListener(onInfoUpdates2Listener);									
     // an event triggerd
-    overwolf.games.events.onNewEvents.addListener(function(info) {
-      var log = 'EVENT FIRED: ' + JSON.stringify(info);
-      textarea.value += log + '\n';
-      console.log(log);
-    });
+    overwolf.games.events.onNewEvents.addListener(onNewEventsListener);
   }
-
-
+  
+  function unregisterEvents() {
+      overwolf.games.events.onError.removeListener(onErrorListener);
+    overwolf.games.events.onInfoUpdates2.removeListener(onInfoUpdates2Listener);
+      overwolf.games.events.onNewEvents.removeListener(onNewEventsListener);
+  }
 
     function gameLaunched(gameInfoResult) {
         if (!gameInfoResult) {
@@ -145,6 +151,7 @@ window.addEventListener('load', function () {
     overwolf.games.onGameInfoUpdated.addListener(function (res) {
         console.log("onGameInfoUpdated: " + JSON.stringify(res));
         if (gameLaunched(res)) {
+            unregisterEvents();
             registerEvents();
             setTimeout(setFeatures, 1000);
         }
