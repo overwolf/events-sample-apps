@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
 
-  // this a subset of the features that LoL events provides - however,
+  // this is a subset of the features that DotA events provides - however,
   // when writing an app that consumes events - it is best if you request
   // only those features that you want to handle.
   //
