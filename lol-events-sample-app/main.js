@@ -108,9 +108,9 @@ function gameRunning(gameInfo) {
 
 function setFeatures() {
   overwolf.games.events.setRequiredFeatures(g_interestedInFeatures, function(info) {
-    if (info.status == "error")
+    if (info.success == false)
     {
-      //console.log("Could not set required features: " + info.reason);
+      //console.log("Could not set required features: " + info.error);
       //console.log("Trying in 2 seconds");
       window.setTimeout(setFeatures, 2000);
       return;
