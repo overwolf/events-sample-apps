@@ -35,7 +35,7 @@ function registerEvents() {
   // "static" data changed (total kills, username, steam-id)
   // This will also be triggered the first time we register
   // for events and will contain all the current information
-  overwolf.games.events.onInfoUpdates2.addListener(onInfoUpdates2Listener);									
+  overwolf.games.launchers.events.onInfoUpdates.addListener(onInfoUpdates2Listener);									
   // an event triggerd
   overwolf.games.events.onNewEvents.addListener(onNewEventsListener);
 }
