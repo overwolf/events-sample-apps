@@ -17,7 +17,6 @@ var g_interestedInFeatures = [
   'match_summary',
   'location',
   'match_info',
-  'phase',
   'victory',
   'damage',
   'inventory'
