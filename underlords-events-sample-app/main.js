@@ -83,7 +83,7 @@ function gameRunning(gameInfo) {
     return false;
   }
 
-  console.log("Apex Legends running");
+  console.log("Dota Underlords running");
   return true;
 
 }
