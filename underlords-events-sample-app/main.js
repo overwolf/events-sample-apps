@@ -1,4 +1,4 @@
-// this a subset of the features that Dota Underlordsevents provides - however,
+// this a subset of the features that Dota Underlords events provides - however,
 // when writing an app that consumes events - it is best if you request
 // only those features that you want to handle.
 //
