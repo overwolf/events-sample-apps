@@ -1,4 +1,4 @@
-// this a subset of the features that Apex Legends events provides - however,
+// this a subset of the features that Dota Underlordsevents provides - however,
 // when writing an app that consumes events - it is best if you request
 // only those features that you want to handle.
 //
@@ -63,7 +63,7 @@ function gameLaunched(gameInfoResult) {
     return false;
   }
 
-  console.log("Apex Legends Launched");
+  console.log("Dota Underlords Launched");
   return true;
 
 }
@@ -83,7 +83,7 @@ function gameRunning(gameInfo) {
     return false;
   }
 
-  console.log("Apex Legends running");
+  console.log("Dota Underlords running");
   return true;
 
 }
