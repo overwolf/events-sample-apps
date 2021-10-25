@@ -9,7 +9,8 @@ var g_interestedInFeatures = [
   'collection',
   'decks',
   'match',
-  'match_info'
+  'match_info',
+  `arena`
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
