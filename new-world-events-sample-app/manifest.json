@@ -2,7 +2,7 @@
   "manifest_version": "1",
   "type": "WebApp",
   "meta": {
-    "name": "Warframe Game Events Consumer Sample",
+    "name": "New World Game Events Consumer Sample",
     "version": "0.0.1",
     "minimum-overwolf-version": "0.92.300.0",
     "author": "Overwolf",
