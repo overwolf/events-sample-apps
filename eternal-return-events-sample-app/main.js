@@ -6,7 +6,21 @@
 // features
 var g_interestedInFeatures = [
   'me',
-  'match_info'
+  'match_info',
+  `matching`,
+  `character_selection`,
+  `kills`,
+  `announces`,
+  `game_objects`,
+  `day_change`,
+  `move_regions`,
+  `scoreboards`,
+  `damages`,
+  `level_ups`,
+  `routes`,
+  `equipments`,
+  `restriction_timers`,
+  `match_ends`
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
