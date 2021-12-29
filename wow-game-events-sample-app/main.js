@@ -5,7 +5,8 @@
 // NOTE: in the future we'll have a wildcard option to allow retreiving all
 // features
 var g_interestedInFeatures = [
-  'game_info'
+  'game_info',
+  'addons'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
