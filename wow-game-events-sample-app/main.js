@@ -5,7 +5,8 @@
 // NOTE: in the future we'll have a wildcard option to allow retreiving all
 // features
 var g_interestedInFeatures = [
-  'game_info'
+  'game_info',
+  'addons'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
@@ -60,7 +61,7 @@ function gameLaunched(gameInfoResult) {
   }
 
   // NOTE: we divide by 10 to get the game class id without it's sequence number
-  if (Math.floor(gameInfoResult.gameInfo.id/10) != 10746) {
+  if (Math.floor(gameInfoResult.gameInfo.id/10) != 765) {
     return false;
   }
 
@@ -80,7 +81,7 @@ function gameRunning(gameInfo) {
   }
 
   // NOTE: we divide by 10 to get the game class id without it's sequence number
-  if (Math.floor(gameInfo.id/10) != 10746) {
+  if (Math.floor(gameInfo.id/10) != 765) {
     return false;
   }
 
