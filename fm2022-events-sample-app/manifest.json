@@ -14,7 +14,7 @@
     "game_targeting": {
       "type": "dedicated",
       "game_ids": [
-        218561
+        21856
       ]
     },
     "start_window": "index",
@@ -35,13 +35,13 @@
         }
       }
     },
-    "game_events": [218561],
+    "game_events": [21856],
     "launch_events": [
       {
         "event": "GameLaunch",
         "event_data": {
           "game_ids": [
-            218561
+            21856
           ]
         },
         "start_minimized": false
