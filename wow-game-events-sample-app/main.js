@@ -61,7 +61,7 @@ function gameLaunched(gameInfoResult) {
   }
 
   // NOTE: we divide by 10 to get the game class id without it's sequence number
-  if (Math.floor(gameInfoResult.gameInfo.id/10) != 765) {
+  if (Math.floor(gameInfoResult.gameInfo.id/10) != 6365) {
     return false;
   }
 
@@ -81,7 +81,7 @@ function gameRunning(gameInfo) {
   }
 
   // NOTE: we divide by 10 to get the game class id without it's sequence number
-  if (Math.floor(gameInfo.id/10) != 765) {
+  if (Math.floor(gameInfo.id/10) != 6365) {
     return false;
   }
 
