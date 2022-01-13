@@ -11,7 +11,10 @@ window.addEventListener('load', function () {
   var requestedFeatures = [
 
     'game_info',
-    'match_info'
+    'match_info',
+    'kill',
+    'assist',
+    'death'
   ];
 
   var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
