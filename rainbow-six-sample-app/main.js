@@ -11,6 +11,7 @@ var g_interestedInFeatures = [
   'kill',
   'death',
   'match_info',
+  'defuser',
   'me'
 ];
 
