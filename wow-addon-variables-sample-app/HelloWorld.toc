@@ -1,0 +1,7 @@
+## Interface: 80100
+## Title: HelloWorld
+## Author: Overwolf
+## Version: 1.0
+## SavedVariables: ow_var1,owf_var2,ow_var3,ow_ther,owf_var5,owf_var6
+
+main.lua
