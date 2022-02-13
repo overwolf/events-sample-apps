@@ -6,7 +6,8 @@
 // features
 var g_interestedInFeatures = [
   'game_info',
-  'match_info'
+  'match_info',
+  'counters'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
