@@ -6,7 +6,8 @@
 // features
 var g_interestedInFeatures = [
   'game_info',
-  'gep_internal'
+  'gep_internal',
+  'kill'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
