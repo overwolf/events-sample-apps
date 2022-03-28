@@ -22,7 +22,8 @@ var g_interestedInFeatures = [
   'damage',
   'heal',
   'live_client_data',
-  `jungle_camps`
+  `jungle_camps`,
+  'team_frames'
   // 'gold'
 ];
 
