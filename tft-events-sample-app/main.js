@@ -13,7 +13,8 @@ var g_interestedInFeatures = [
   'board',
   'bench',
   'carousel',
-  'live_client_data'
+  'live_client_data',
+  'augments'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
