@@ -22,4 +22,3 @@ Data Example:
 ```json
 {"feature":"addons","category":"addons","key":"var_addon_1","value":"{\"owf_var2\":\"test 123\",\"owf_var5\":\"123 test\",\"owf_var6\":\"55\"}"}
 ```
--->
