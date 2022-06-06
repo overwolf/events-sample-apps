@@ -29,7 +29,8 @@ var g_interestedInFeatures = [
   'counters',
   'mvp',
   'kill_feed',
-  'scoreboard'
+  'scoreboard',
+  'score'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
