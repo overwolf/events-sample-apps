@@ -1,7 +1,7 @@
 var_addon notes
 
 * This info-update should be used by addon creators who wish to integrate their WoW addon with an Overwolf app.
-* The event is not fired every time but occurs only if the value of the variable has changed.
+* The event variables are provided once it is updated.
 * Remember that variables defined in "SavedVariables" section save their values between play sessions. In most cases, in order to use them correctly, you need to reinitialize them on "VARIABLES_LOADED" game event.
 * Use case example:
    * WoW addon that monitors real-time damage, healing, etc. sends this data to an Overwolf application that displays a game summary screen with interesting stats, video highlights, and more.
