@@ -14,7 +14,8 @@ var g_interestedInFeatures = [
   'bench',
   'carousel',
   'live_client_data',
-  'augments'
+  'augments',
+  'game_info'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
