@@ -5,7 +5,7 @@
 // NOTE: in the future we'll have a wildcard option to allow retreiving all
 // features
 var g_interestedInFeatures = [
-  match_info
+  'match_info'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
