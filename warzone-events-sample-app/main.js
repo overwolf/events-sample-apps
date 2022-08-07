@@ -9,7 +9,8 @@ var g_interestedInFeatures = [
   'match_info',
   'kill',
   'death',
-  'gep_internal'
+  'gep_internal',
+  'assist'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
