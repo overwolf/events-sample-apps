@@ -19,7 +19,8 @@ var g_interestedInFeatures = [
   'team',
   'items',
   'counters',
-  'match_info'
+  'match_info',
+  'map'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
