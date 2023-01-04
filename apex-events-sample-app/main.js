@@ -19,7 +19,8 @@ var g_interestedInFeatures = [
   'match_info',
   'victory',
   'damage',
-  'inventory'
+  'inventory',
+  'localization'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
