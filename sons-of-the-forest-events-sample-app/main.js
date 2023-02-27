@@ -6,6 +6,7 @@
 // features
 var g_interestedInFeatures = [
   'match_info',
+  'location'
 ];
 
 var onErrorListener,onInfoUpdates2Listener,	onNewEventsListener;
