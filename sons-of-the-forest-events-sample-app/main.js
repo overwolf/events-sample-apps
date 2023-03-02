@@ -109,8 +109,8 @@ function setFeatures() {
 // Start here
 overwolf.games.onGameInfoUpdated.addListener(function (res) {
   if (gameLaunched(res)) {
-    registerEvents();
     unregisterEvents();
+    registerEvents();
     setTimeout(setFeatures, 1000);
   }
   console.log("onGameInfoUpdated: " + JSON.stringify(res));
